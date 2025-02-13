@@ -31,7 +31,7 @@ main()
    });
 
 async function main() {
-    await mongoose.connect(dbUrl);
+    await mongoose.connect(MONGO_URL);
 };
 
 app.set("view engine" , "ejs");
@@ -113,3 +113,4 @@ app.use((err ,req ,res, next) => {
 app.listen(8080 ,() => {
     console.log("server is listening to port 8080");
 });
+

@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Plus Jakarta Sans',sans-serif !important;
     display:flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ body {
 
 .nav-link {
     color : #222222 !important;
-}
+} 
 
 /*footer*/
 .f-info-links a {
@@ -120,6 +120,6 @@ body {
 /* Map */
 #map { 
     height : 400px;
-    width : 50vh ;
-    padding: 0rem;
-}
+    width :  50vh ;
+    /* padding: 0rem; */
+} 
