@@ -1,4 +1,4 @@
-/* body {
+body {
     font-family: 'Plus Jakarta Sans',sans-serif !important;
     display:flex;
     flex-direction: column;
@@ -121,5 +121,5 @@
 #map { 
     height : 400px;
     width :  50vh ;
-    /* padding: 0rem; */
+    padding: 0rem; 
 } 
